@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <title>Pride World City</title>
+</head>
+<style>
+    .nav-link {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        gap: 50px;
+        margin-top: 15px;
+    }
+    .mapouter{position:relative;text-align:right;height:95%;width:95%;}
+    .gmap_canvas {overflow:hidden;background:none!important;height:95%;width:95%;}
+    
+    
+   
+</style>
+<body>
+<div>
+        <!-- navbar section -->
+        <div>
+            <nav class="navbar navbar-expand-sm bg-light">
+              <div class="container items-center justify-content-center ">
+                <img src="./logo.jpg" alt="logo" height="70">
+                <button class="navbar-toggler" type="button"></button>
+        
+                <div>
+                  <ul style="display: flex; list-style: none;">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="township">Township Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="amenities">Amenities</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"  href="location">Location</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"  href="number">8055544000</a>
+                      </li>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " margin-top: 15px; height: 40px; width: 150px; background-color: #2f6cb0; color: white;">ENQUIRE NOW</button>
+                  </ul>  
+                </div>
+              </div> 
+            </nav>
+          </div>
+ <!-- Banner section -->
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="color: black;"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="color: black;"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./banner-1.jpg" class="d-block w-100" alt="banner-1">
+      </div>
+      <div class="carousel-item">
+        <img src="./banner-2.jpg" class="d-block w-100" alt="banner-2">
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- overview section -->
+ <!-- home section -->
+ <section id="overview" style="margin-top: 50px; margin-bottom: 50px; margin-left: 50px;">
+
+    <div class="container">
+      
+          <div class="overview-text">
+            <h2 style="color: #e7b510; margin-bottom: 15px; font-weight: 600;">Overview</h2>
+            <h1 style="margin-bottom: 15px; font-weight: 700; font-size: 3rem;">Pride World City Dhanori</h1>
+      
+            <p style="font-weight: 400; font-size: medium;">Pride World City offers spacious 2 BHK, 2.5 BHK, 3 BHK, 4 BHK flats and Duplex in Dhanori
+                 Lohegaon Road facilitates a high-quality lifestyle that is built on robust foundations 
+                 of universal design and world-class infrastructure. The 400-acre project would be 
+                 developed in multiple phases and may contain IT Parks, Schools, Hospitals, 
+                 Multiplexes and much more.</p>
+          </div>
+          <div class="container items-center justify-content-center" style="padding-top: 50px; padding-right: 50px; padding-left: 50px; padding-bottom: 30px;">
+            <div class="row  text-center">
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">35+</span>
+                <p style="font-size: 20px; font-weight: 500;">YEARS OF EXPERIENCE</p>
+              </div>
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">5000+</span>
+                <p style="font-size: 20px; font-weight: 500;">HAPPY FAMILY</p>
+              </div>
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">100+</span>
+                <p style="font-size: 20px; font-weight: 500;">WORLD CLASS AMENITIES</p>
+              </div>
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">19+</span>
+                <p style="font-size: 20px; font-weight: 500;">PRESTIGIOUS AWARDS</p>
+              </div>
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">EASTERN</span>
+                <p style="font-size: 20px; font-weight: 500;">PUNE BIGGEST TOWNSHIP</p>
+              </div>
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">15 MINS</span>
+                <p style="font-size: 20px; font-weight: 500;">FROM PUNE AIRPORT</p>
+              </div>
+              <div class="col-sm-3 cell" style="margin-bottom: 10px;">
+                <span style="font-weight: 700; color: #2f6cb0; font-size: 30px;">ON TIME</span>
+                <p style="font-size: 20px; font-weight: 500;">POSSESSION</p>
+              </div>
+              
+            </div>
+            
+        
+          </div>
+
+        </div>
+      </div>
+</section>
+
+
+<!-- project section -->
+<section id="project" style="margin-top: 50px; margin-bottom: 50px; margin-left: 50px;">
+    <div class="container" style="margin-bottom: 60px;">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2 style="font-weight: 700; font-size: 40px;">All Projects</h2>
+                <div class="project-image">
+                    <img src="./soho.jpg" alt="Image" width="500px">
+                  </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-text" style="margin-top: 135px;">
+                    <h3 style="margin-bottom: 15px; font-weight: 700;">SOHO</h3>
+                    <ul style="text-align: left;">
+                        <li style="margin-bottom: 10px;">SoHo is a thoughtfully designed new neighbourhood in Pride World City 
+                            that was constructed with the principle of equality</li>
+                         <li style="margin-bottom: 10px;">The project has 45 + unique Upscale Morden Amenities Having Wi-fi Inverter in 
+                                Each Flats.</li>
+                        <li style="margin-bottom: 15px;">The facilities and services here encourage an equal distribution of opportunities 
+                            and duties, making it the ideal way of life for the younger generation.</li>
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.8 16.4C9.8 15.08 10.88 14 12.2 14C13.52 14 14.6 15.08 14.6 16.4C14.6 17.72 13.52 18.8 12.2 18.8C10.88 18.8 9.8 17.72 9.8 16.4ZM31.4 20H8.6V11.6C8.6 11.27 8.33 11 8 11H5.6C5.27 11 5 11.27 5 11.6V26H8.6V23.6H28.4V26H29H29.6H30.8H31.4H32V20.6C32 20.27 31.73 20 31.4 20ZM27.2 14.6H16.4C16.07 14.6 15.8 14.87 15.8 15.2V18.8H31.4C31.4 16.49 29.51 14.6 27.2 14.6Z" fill="#2f6cb0"></path></svg>
+                              2 & 2.5 BHK Flats
+                            </a>
+                        </li>  
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.7763 28C16.3731 26.8032 15.0726 25.4911 13.8881 24.0774C12.1107 21.9545 10 18.7929 10 15.7802C9.99923 14.2415 10.4549 12.7372 11.3094 11.4577C12.1639 10.1781 13.3788 9.18085 14.8003 8.592C16.2217 8.00316 17.786 7.84925 19.295 8.14975C20.804 8.45025 22.1899 9.19165 23.2774 10.2801C24.0014 11.0009 24.5753 11.8582 24.9658 12.8023C25.3564 13.7463 25.5558 14.7585 25.5525 15.7802C25.5525 18.7929 23.4418 21.9545 21.6644 24.0774C20.48 25.4911 19.1794 26.8032 17.7763 28ZM17.7763 12.4475C16.8924 12.4475 16.0447 12.7986 15.4197 13.4236C14.7947 14.0486 14.4436 14.8963 14.4436 15.7802C14.4436 16.664 14.7947 17.5117 15.4197 18.1367C16.0447 18.7617 16.8924 19.1128 17.7763 19.1128C18.6601 19.1128 19.5078 18.7617 20.1328 18.1367C20.7578 17.5117 21.1089 16.664 21.1089 15.7802C21.1089 14.8963 20.7578 14.0486 20.1328 13.4236C19.5078 12.7986 18.6601 12.4475 17.7763 12.4475Z" fill="#2f6cb0"></path></svg>
+                                Pride World City, Dhanori
+                            </a>
+                        </li> 
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.7892 8H11.2108C9.43133 8 8 9.43133 8 11.2108V24.7892C8 26.5687 9.43133 28 11.2108 28H24.7892C26.5687 28 28 26.5687 28 24.7892V11.2495C28.0387 9.47002 26.5687 8 24.7892 8ZM26.4913 24.8279C26.4913 25.7563 25.7176 26.53 24.7892 26.53H11.2108C10.2824 26.53 9.5087 25.7563 9.5087 24.8279V11.2495C9.5087 10.3211 10.2824 9.54739 11.2108 9.54739H24.7892C25.7176 9.54739 26.4913 10.3211 26.4913 11.2495V24.8279Z" fill="#2f6cb0"></path><rect x="8.77368" y="9.16052" width="18.1818" height="17.795" rx="3" fill="#2f6cb0"></rect>
+                                    <path d="M15.8916 18.9478L12.5647 22.2747V19.7989C12.5647 19.3733 12.2166 19.0252 11.791 19.0252C11.3655 19.0252 11.0173 19.3733 11.0173 19.7989V24.1316C11.0173 24.5571 11.3655 24.9053 11.791 24.9053H16.1237C16.5492 24.9053 16.8974 24.5571 16.8974 24.1316C16.8974 23.706 16.5492 23.3579 16.1237 23.3579H13.6479L16.9748 20.031C17.2843 19.7215 17.2843 19.2573 16.9748 18.9478C16.6653 18.6383 16.2011 18.6383 15.8916 18.9478Z" fill="white"></path><path d="M24.2476 10.9014H19.915C19.4894 10.9014 19.1413 11.2495 19.1413 11.6751C19.1413 12.1006 19.4894 12.4488 19.915 12.4488H22.3908L19.0639 15.7756C18.7544 16.0851 18.7544 16.5493 19.0639 16.8588C19.2186 17.0136 19.4121 17.0909 19.6055 17.0909C19.7989 17.0909 19.9923 17.0136 20.1471 16.8588L23.474 13.5319V16.0078C23.474 16.4333 23.8221 16.7814 24.2476 16.7814C24.6732 16.7814 25.0213 16.4333 25.0213 16.0078V11.6751C25.0213 11.2495 24.6732 10.9014 24.2476 10.9014Z" fill="white"></path></svg>
+                                    Upto 950 Sq.Ft
+                            </a>
+                        </li>   
+                    </ul>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 150px; border: 1px solid #2f6cb0; background-color: #2f6cb0; color: white;">Know Pricing</button>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 300px; border: 1px solid #2f6cb0; color: #2f6cb0;">Download Brochure</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-bottom: 60px;">
+        <div class="row">
+            
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-text" style="margin-top: 135px;">
+                    <h3 style="margin-bottom: 15px; font-weight: 700;">Wellington</h3>
+                    <ul style="text-align: left;">
+                        <li style="margin-bottom: 10px;">Wellington is a 12 Acres of Premium Residential project in Dhanori-Lohegaon</li>
+                         <li style="margin-bottom: 10px;">Pune’s 1st project to have110+ modern and unique amenities, with 7 Acres of Largest Podium in Pune</li>
+                        <li style="margin-bottom: 15px;">Wellington offers 2 BHK, 3 BHK, 4 BHK flats, in Pune with premium quality construction</li>
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.8 16.4C9.8 15.08 10.88 14 12.2 14C13.52 14 14.6 15.08 14.6 16.4C14.6 17.72 13.52 18.8 12.2 18.8C10.88 18.8 9.8 17.72 9.8 16.4ZM31.4 20H8.6V11.6C8.6 11.27 8.33 11 8 11H5.6C5.27 11 5 11.27 5 11.6V26H8.6V23.6H28.4V26H29H29.6H30.8H31.4H32V20.6C32 20.27 31.73 20 31.4 20ZM27.2 14.6H16.4C16.07 14.6 15.8 14.87 15.8 15.2V18.8H31.4C31.4 16.49 29.51 14.6 27.2 14.6Z" fill="#2f6cb0"></path></svg>
+                              3 & 4 BHK Flats
+                            </a>
+                        </li>  
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.7763 28C16.3731 26.8032 15.0726 25.4911 13.8881 24.0774C12.1107 21.9545 10 18.7929 10 15.7802C9.99923 14.2415 10.4549 12.7372 11.3094 11.4577C12.1639 10.1781 13.3788 9.18085 14.8003 8.592C16.2217 8.00316 17.786 7.84925 19.295 8.14975C20.804 8.45025 22.1899 9.19165 23.2774 10.2801C24.0014 11.0009 24.5753 11.8582 24.9658 12.8023C25.3564 13.7463 25.5558 14.7585 25.5525 15.7802C25.5525 18.7929 23.4418 21.9545 21.6644 24.0774C20.48 25.4911 19.1794 26.8032 17.7763 28ZM17.7763 12.4475C16.8924 12.4475 16.0447 12.7986 15.4197 13.4236C14.7947 14.0486 14.4436 14.8963 14.4436 15.7802C14.4436 16.664 14.7947 17.5117 15.4197 18.1367C16.0447 18.7617 16.8924 19.1128 17.7763 19.1128C18.6601 19.1128 19.5078 18.7617 20.1328 18.1367C20.7578 17.5117 21.1089 16.664 21.1089 15.7802C21.1089 14.8963 20.7578 14.0486 20.1328 13.4236C19.5078 12.7986 18.6601 12.4475 17.7763 12.4475Z" fill="#2f6cb0"></path></svg>
+                                Pride World City, Dhanori
+                            </a>
+                        </li> 
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.7892 8H11.2108C9.43133 8 8 9.43133 8 11.2108V24.7892C8 26.5687 9.43133 28 11.2108 28H24.7892C26.5687 28 28 26.5687 28 24.7892V11.2495C28.0387 9.47002 26.5687 8 24.7892 8ZM26.4913 24.8279C26.4913 25.7563 25.7176 26.53 24.7892 26.53H11.2108C10.2824 26.53 9.5087 25.7563 9.5087 24.8279V11.2495C9.5087 10.3211 10.2824 9.54739 11.2108 9.54739H24.7892C25.7176 9.54739 26.4913 10.3211 26.4913 11.2495V24.8279Z" fill="#2f6cb0"></path><rect x="8.77368" y="9.16052" width="18.1818" height="17.795" rx="3" fill="#2f6cb0"></rect>
+                                    <path d="M15.8916 18.9478L12.5647 22.2747V19.7989C12.5647 19.3733 12.2166 19.0252 11.791 19.0252C11.3655 19.0252 11.0173 19.3733 11.0173 19.7989V24.1316C11.0173 24.5571 11.3655 24.9053 11.791 24.9053H16.1237C16.5492 24.9053 16.8974 24.5571 16.8974 24.1316C16.8974 23.706 16.5492 23.3579 16.1237 23.3579H13.6479L16.9748 20.031C17.2843 19.7215 17.2843 19.2573 16.9748 18.9478C16.6653 18.6383 16.2011 18.6383 15.8916 18.9478Z" fill="white"></path><path d="M24.2476 10.9014H19.915C19.4894 10.9014 19.1413 11.2495 19.1413 11.6751C19.1413 12.1006 19.4894 12.4488 19.915 12.4488H22.3908L19.0639 15.7756C18.7544 16.0851 18.7544 16.5493 19.0639 16.8588C19.2186 17.0136 19.4121 17.0909 19.6055 17.0909C19.7989 17.0909 19.9923 17.0136 20.1471 16.8588L23.474 13.5319V16.0078C23.474 16.4333 23.8221 16.7814 24.2476 16.7814C24.6732 16.7814 25.0213 16.4333 25.0213 16.0078V11.6751C25.0213 11.2495 24.6732 10.9014 24.2476 10.9014Z" fill="white"></path></svg>
+                                    Upto 1056-1459 Sq.Ft
+                            </a>
+                        </li>   
+                    </ul>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 150px; border: 1px solid #2f6cb0; background-color: #2f6cb0; color: white;">Know Pricing</button>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 300px; border: 1px solid #2f6cb0; color: #2f6cb0;">Download Brochure</button>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-image">
+                    <img src="./wellington.jpeg" alt="Image" width="500px">
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-bottom: 60px;">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-image">
+                    <img src="./manhattan.jpg" alt="Image" width="500px">
+                  </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-text" style="margin-top: 135px;">
+                    <h3 style="margin-bottom: 15px; font-weight: 700;">Manhattan</h3>
+                    <ul style="text-align: left;">
+                        <li style="margin-bottom: 10px;">Pride World City Manhattan Offers 2 BHK flats designed with a concept of zero wastage homes to provide maximum usable area with best interior to feel luxury.</li>
+                         <li style="margin-bottom: 10px;">The cluster is loaded with 30+ unique Amenities having 4350 sqft club house offers spacious 2BHk Flats in Dhanori with Natural VentilationIn Each Apartments Having all Vastu compliance homes.</li>
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.8 16.4C9.8 15.08 10.88 14 12.2 14C13.52 14 14.6 15.08 14.6 16.4C14.6 17.72 13.52 18.8 12.2 18.8C10.88 18.8 9.8 17.72 9.8 16.4ZM31.4 20H8.6V11.6C8.6 11.27 8.33 11 8 11H5.6C5.27 11 5 11.27 5 11.6V26H8.6V23.6H28.4V26H29H29.6H30.8H31.4H32V20.6C32 20.27 31.73 20 31.4 20ZM27.2 14.6H16.4C16.07 14.6 15.8 14.87 15.8 15.2V18.8H31.4C31.4 16.49 29.51 14.6 27.2 14.6Z" fill="#2f6cb0"></path></svg>
+                              2 BHK Flats
+                            </a>
+                        </li>  
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.7763 28C16.3731 26.8032 15.0726 25.4911 13.8881 24.0774C12.1107 21.9545 10 18.7929 10 15.7802C9.99923 14.2415 10.4549 12.7372 11.3094 11.4577C12.1639 10.1781 13.3788 9.18085 14.8003 8.592C16.2217 8.00316 17.786 7.84925 19.295 8.14975C20.804 8.45025 22.1899 9.19165 23.2774 10.2801C24.0014 11.0009 24.5753 11.8582 24.9658 12.8023C25.3564 13.7463 25.5558 14.7585 25.5525 15.7802C25.5525 18.7929 23.4418 21.9545 21.6644 24.0774C20.48 25.4911 19.1794 26.8032 17.7763 28ZM17.7763 12.4475C16.8924 12.4475 16.0447 12.7986 15.4197 13.4236C14.7947 14.0486 14.4436 14.8963 14.4436 15.7802C14.4436 16.664 14.7947 17.5117 15.4197 18.1367C16.0447 18.7617 16.8924 19.1128 17.7763 19.1128C18.6601 19.1128 19.5078 18.7617 20.1328 18.1367C20.7578 17.5117 21.1089 16.664 21.1089 15.7802C21.1089 14.8963 20.7578 14.0486 20.1328 13.4236C19.5078 12.7986 18.6601 12.4475 17.7763 12.4475Z" fill="#2f6cb0"></path></svg>
+                                Pride World City, Dhanori
+                            </a>
+                        </li> 
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.7892 8H11.2108C9.43133 8 8 9.43133 8 11.2108V24.7892C8 26.5687 9.43133 28 11.2108 28H24.7892C26.5687 28 28 26.5687 28 24.7892V11.2495C28.0387 9.47002 26.5687 8 24.7892 8ZM26.4913 24.8279C26.4913 25.7563 25.7176 26.53 24.7892 26.53H11.2108C10.2824 26.53 9.5087 25.7563 9.5087 24.8279V11.2495C9.5087 10.3211 10.2824 9.54739 11.2108 9.54739H24.7892C25.7176 9.54739 26.4913 10.3211 26.4913 11.2495V24.8279Z" fill="#2f6cb0"></path><rect x="8.77368" y="9.16052" width="18.1818" height="17.795" rx="3" fill="#2f6cb0"></rect>
+                                    <path d="M15.8916 18.9478L12.5647 22.2747V19.7989C12.5647 19.3733 12.2166 19.0252 11.791 19.0252C11.3655 19.0252 11.0173 19.3733 11.0173 19.7989V24.1316C11.0173 24.5571 11.3655 24.9053 11.791 24.9053H16.1237C16.5492 24.9053 16.8974 24.5571 16.8974 24.1316C16.8974 23.706 16.5492 23.3579 16.1237 23.3579H13.6479L16.9748 20.031C17.2843 19.7215 17.2843 19.2573 16.9748 18.9478C16.6653 18.6383 16.2011 18.6383 15.8916 18.9478Z" fill="white"></path><path d="M24.2476 10.9014H19.915C19.4894 10.9014 19.1413 11.2495 19.1413 11.6751C19.1413 12.1006 19.4894 12.4488 19.915 12.4488H22.3908L19.0639 15.7756C18.7544 16.0851 18.7544 16.5493 19.0639 16.8588C19.2186 17.0136 19.4121 17.0909 19.6055 17.0909C19.7989 17.0909 19.9923 17.0136 20.1471 16.8588L23.474 13.5319V16.0078C23.474 16.4333 23.8221 16.7814 24.2476 16.7814C24.6732 16.7814 25.0213 16.4333 25.0213 16.0078V11.6751C25.0213 11.2495 24.6732 10.9014 24.2476 10.9014Z" fill="white"></path></svg>
+                                    Upto 725 Sq.Ft
+                            </a>
+                        </li>   
+                    </ul>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 150px; border: 1px solid #2f6cb0; background-color: #2f6cb0; color: white;">Know Pricing</button>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 300px; border: 1px solid #2f6cb0; color: #2f6cb0;">Download Brochure</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-bottom: 60px;">
+        <div class="row">
+            
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-text" style="margin-top: 135px;">
+                    <h3 style="margin-bottom: 15px; font-weight: 700;">Atlantic</h3>
+                    <ul style="text-align: left;">
+                        <li style="margin-bottom: 10px;">Pride world city Atlanticis aPremium luxury project with 3 BHK & 4 BHK Flats In Dhanori – Lohegaon Road with fully automated homes.</li>
+                         <li style="margin-bottom: 10px;">Project offer natural winds and every corner is sun kissed.</li>
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.8 16.4C9.8 15.08 10.88 14 12.2 14C13.52 14 14.6 15.08 14.6 16.4C14.6 17.72 13.52 18.8 12.2 18.8C10.88 18.8 9.8 17.72 9.8 16.4ZM31.4 20H8.6V11.6C8.6 11.27 8.33 11 8 11H5.6C5.27 11 5 11.27 5 11.6V26H8.6V23.6H28.4V26H29H29.6H30.8H31.4H32V20.6C32 20.27 31.73 20 31.4 20ZM27.2 14.6H16.4C16.07 14.6 15.8 14.87 15.8 15.2V18.8H31.4C31.4 16.49 29.51 14.6 27.2 14.6Z" fill="#2f6cb0"></path></svg>
+                              2 & 3 BHK Flats
+                            </a>
+                        </li>  
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.7763 28C16.3731 26.8032 15.0726 25.4911 13.8881 24.0774C12.1107 21.9545 10 18.7929 10 15.7802C9.99923 14.2415 10.4549 12.7372 11.3094 11.4577C12.1639 10.1781 13.3788 9.18085 14.8003 8.592C16.2217 8.00316 17.786 7.84925 19.295 8.14975C20.804 8.45025 22.1899 9.19165 23.2774 10.2801C24.0014 11.0009 24.5753 11.8582 24.9658 12.8023C25.3564 13.7463 25.5558 14.7585 25.5525 15.7802C25.5525 18.7929 23.4418 21.9545 21.6644 24.0774C20.48 25.4911 19.1794 26.8032 17.7763 28ZM17.7763 12.4475C16.8924 12.4475 16.0447 12.7986 15.4197 13.4236C14.7947 14.0486 14.4436 14.8963 14.4436 15.7802C14.4436 16.664 14.7947 17.5117 15.4197 18.1367C16.0447 18.7617 16.8924 19.1128 17.7763 19.1128C18.6601 19.1128 19.5078 18.7617 20.1328 18.1367C20.7578 17.5117 21.1089 16.664 21.1089 15.7802C21.1089 14.8963 20.7578 14.0486 20.1328 13.4236C19.5078 12.7986 18.6601 12.4475 17.7763 12.4475Z" fill="#2f6cb0"></path></svg>
+                              Dhanori - Lohegaon
+                            </a>
+                        </li> 
+                        <li style="list-style: none; margin-top: 10px;">
+                            <a href="#" style="font-weight: 700; color: black; text-decoration: none;">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.7892 8H11.2108C9.43133 8 8 9.43133 8 11.2108V24.7892C8 26.5687 9.43133 28 11.2108 28H24.7892C26.5687 28 28 26.5687 28 24.7892V11.2495C28.0387 9.47002 26.5687 8 24.7892 8ZM26.4913 24.8279C26.4913 25.7563 25.7176 26.53 24.7892 26.53H11.2108C10.2824 26.53 9.5087 25.7563 9.5087 24.8279V11.2495C9.5087 10.3211 10.2824 9.54739 11.2108 9.54739H24.7892C25.7176 9.54739 26.4913 10.3211 26.4913 11.2495V24.8279Z" fill="#2f6cb0"></path><rect x="8.77368" y="9.16052" width="18.1818" height="17.795" rx="3" fill="#2f6cb0"></rect>
+                                    <path d="M15.8916 18.9478L12.5647 22.2747V19.7989C12.5647 19.3733 12.2166 19.0252 11.791 19.0252C11.3655 19.0252 11.0173 19.3733 11.0173 19.7989V24.1316C11.0173 24.5571 11.3655 24.9053 11.791 24.9053H16.1237C16.5492 24.9053 16.8974 24.5571 16.8974 24.1316C16.8974 23.706 16.5492 23.3579 16.1237 23.3579H13.6479L16.9748 20.031C17.2843 19.7215 17.2843 19.2573 16.9748 18.9478C16.6653 18.6383 16.2011 18.6383 15.8916 18.9478Z" fill="white"></path><path d="M24.2476 10.9014H19.915C19.4894 10.9014 19.1413 11.2495 19.1413 11.6751C19.1413 12.1006 19.4894 12.4488 19.915 12.4488H22.3908L19.0639 15.7756C18.7544 16.0851 18.7544 16.5493 19.0639 16.8588C19.2186 17.0136 19.4121 17.0909 19.6055 17.0909C19.7989 17.0909 19.9923 17.0136 20.1471 16.8588L23.474 13.5319V16.0078C23.474 16.4333 23.8221 16.7814 24.2476 16.7814C24.6732 16.7814 25.0213 16.4333 25.0213 16.0078V11.6751C25.0213 11.2495 24.6732 10.9014 24.2476 10.9014Z" fill="white"></path></svg>
+                                    Upto 2244 Sq.Ft
+                            </a>
+                        </li>   
+                    </ul>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 150px; border: 1px solid #2f6cb0; background-color: #2f6cb0; color: white;">Know Pricing</button>
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= " height: 40px; width: 300px; border: 1px solid #2f6cb0; color: #2f6cb0;">Download Brochure</button>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="project-image">
+                    <img src="./atlantic.jpg" alt="Image" width="500px">
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- township highlights -->
+<section>
+    <div class="flex" style="margin-bottom: 60px; background-color:#2f6cb0;">
+        <div class="row">
+            <h2 style="text-align: center; margin-top: 30px; color: #e7b510;">Township Highlights</h2>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="township-text1" style="margin-left: 70px; color: white;">
+                        <ul style="margin-top: 50px; margin-bottom: 50px;">
+                            <li style="margin-bottom: 15px;">400+ Acres Township</li>
+                            <li style="margin-bottom: 15px;">World class three tier security</li>
+                            <li style="margin-bottom: 15px;">Vehicular free podium</li>
+                            <li style="margin-bottom: 15px;">100% DG backup for lifts & common areas</li>
+                            <li style="margin-bottom: 15px;">Maximum Living Area</li>
+                            <li style="margin-bottom: 15px;">2, 3, 4, 4.5 Bhk flats</li>
+                            <li style="margin-bottom: 15px;">Superior Construction Quality</li>
+                            <li style="margin-bottom: 15px;">15 min from Airport</li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="township-text2" style="margin-left: 60px; color: white;">
+                    <ul style="margin-top: 50px; margin-bottom: 50px;">
+                        <li style="margin-bottom: 15px;">Excellent Connectivity to all the Prime areas</li>
+                        <li style="margin-bottom: 15px;">65%+ Open space</li>
+                        <li style="margin-bottom: 15px;">Abundant natural light & ventilation in every room</li>
+                        <li style="margin-bottom: 15px;">World class three tier security</li>
+                        <li style="margin-bottom: 15px;">Township has 5 cluster</li>
+                        <li style="margin-bottom: 15px;">Tallest tower in vicinity</li>
+                        <li style="margin-bottom: 15px;">Zero wastage Homes</li>
+                    </ul>
+                </div>
+        </div>
+    
+        </div>
+    </div>
+</section>
+
+<!-- amenities section -->
+<section id="amenities">
+    <div class="container">
+        <h2 style="font-weight: 700; font-size: 50px;">World Class Amenities</h2>
+        <p style="word-spacing: 5px;">Pride World City offers project level amenities apart from the township level
+             amenities which takes care of all your entertainment and recreation needs.</p>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div class="amenities-text">
+            <ul style="margin-top: 60px;">
+                <li style="margin-bottom: 20px;">Club House</li>
+                <li style="margin-bottom: 20px;">Gymnasium</li>
+                <li style="margin-bottom: 20px;">Swimming Pool</li>
+                <li style="margin-bottom: 20px;">Badminton Court</li>
+                <li style="margin-bottom: 20px;">Kids Play Area</li>
+                <li style="margin-bottom: 20px;">Grocery Store</li>
+                <li style="margin-bottom: 20px;">Multipurpose Hall</li>
+                <li style="margin-bottom: 20px;">Podium Level Amenities</li>
+                <li style="margin-bottom: 20px;">Sun Kissed Apartments</li>
+            </ul>
+    
+          
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./5.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./7.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"  style=" border: 1px solid #2f6cb0; background-color: #2f6cb0; color: white;"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon"  style=" border: 1px solid #2f6cb0; background-color: #2f6cb0; color: white;"></span>
+            </button>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- location section -->
+
+<section>
+  <div class="flex" style="margin-bottom: 60px; background-color:#2f6cb0;">
+      <div class="row">
+          <h2 style="text-align: center; margin-top: 30px; color: #e7b510;">Location Highlights</h2>
+              <div class="col-lg-6 col-md-12 col-12">
+                  <div class="location-text1" style="margin-left: 50px; color: white;">
+                      <ul style="margin-top: 50px; margin-bottom: 50px;">
+                          <li style="margin-bottom: 15px;">Located in a well settled residential suburb of Pune North, surrounded by Prime Vishrantwadi, Pune Airport, Viman Nagar</li>
+                          <li style="margin-bottom: 15px;">Quick access to Wikfield, Magarpatta Cyber City & EON IT Park.</li>
+                          <li style="margin-bottom: 15px;">Project is located at 15 min. distance from all the major areas in Pune & Pimpri Chinchwad.</li>
+                      </ul>
+                  </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="95%" height="95%" id="gmap_canvas" src="https://maps.google.com/maps?q=Pride World City Rd Charholi Budruk Maharashtra 412105&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+                </iframe>
+                <br>
+                </div></div>
+      </div>
+  
+      </div>
+  </div>
+</section>
+
+<!-- floor plan section -->
+
+<section>
+  <div class="container" style="margin-bottom: 60px">
+      <div class="row justify-content-center">
+                  <div class="floor-plan justify-content-center" style="text-align: center;">
+                    <button class="btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style= "height: 50px; width: 300px; border: 1px solid #2f6cb0; color: #2f6cb0;">Request Floor Plan</button>
+                  </div>
+          </div>
+          
+  
+      </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer>
+  <div class="flex" style="background-color:#2f6cb0;">
+    <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+              <h4 style="color: white; font-weight: 400; font-size: 30px; text-align: center; margin-top: 30px; margin-left: 30px; margin-bottom: 30px;">A STEP AHEAD. ASK TO OWN.</h4>
+                <div class="footer-form" style="padding: 5px; background:#ececec; margin-left: 60px;">
+                  <form class="text-center">
+                    <div class="form-group text-center">
+                        <div class="col-sm-12" style="margin-top: 20px; margin-bottom: 10px;"> 
+                      <input placeholder="First Name" type="text" name="first_name"  style="  width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border: #ececec; border-radius: 5px;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12" style="margin-bottom: 10px;">
+                            <input placeholder="Phone Number" type="text" name="phone" style=" width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border: #ececec; border-radius: 5px;">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12" style="margin-bottom: 10px;">
+                            <input placeholder="Email" type="text" name="email" style="  width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border: #ececec; border-radius: 5px;">
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                      <div class="col-sm-12" style="margin-bottom: 10px;">
+                      <select placeholder="Project Looking" type="text" name="project looking" style="width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border: #ececec; border-radius: 5px;">
+                      <option value="">Select Project Looking</option>
+                      <option value="1">SOHO</option>
+                      <option value="2">Wellington</option>
+                      <option value="3">Manhattan</option>
+                      <option value="4">Atlantic</option>                     
+                     </select>
+                      </div>
+                    </div>
+
+                     <div class="form-group ">
+                      <div class="col-sm-12" style="margin-bottom: 10px;">
+                      <select placeholder="Configuration Looking" type="text" name="configuration looking" style="width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border: #ececec; border-radius: 5px;">
+                      <option value="">Select Configuration Looking</option>
+                      <option value="1">2 BHK</option>
+                      <option value="2">2.5 BHK</option>
+                      <option value="3">3 BHK</option>
+                      <option value="4">4 BHK</option>
+                      <option value="5">4.5 BHK</option>
+                     </select>
+                      </div>
+                     </div>
+                     <div style="margin-bottom: 20px;">
+                      <input type="checkbox" name="agree" required id="agree" />
+                      <label for="agree">I agreed to be contacted on Whatsapp</label>
+                    </div>
+                    <div>
+                      <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-bottom: 20px;  border-radius: 10px; color: white; background-color: #2f6cb0; border:#2f6cb0; border-radius: 5px;">Submit</button>
+                      </div>
+
+
+                    
+                </form>
+                </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12">
+           <div class="footer-text" style="margin-top: 30px; margin-left: 100px;">
+            <div style="margin-bottom: 50px;">
+              <img src="./logo.jpg" alt="logo" height="70">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <p style="color: white;">Pride World City at Charholi, Pune offers an unparalleled space, created by expert
+                 professionals to provide its citizens with world-class infrastructure and a global 
+                 lifestyle.</p>
+            </div>
+            <div>
+              <h4 style="color: white;">CONTACT US</h4>
+              <P style="color: white;">Adjacent to D.Y. Patil Knowledge City, Charholi Bk, Pune 412105.</P>
+            </div>
+            <div>
+              <h4 style="color: white;">CALL US</h4>
+              <P style="color: white;">8055544000</P>
+            </div>
+           </div> 
+         </div>
+         <div class="col-lg-4 col-md-12 col-12">
+          <div class="footer-text" style="margin-top: 200px; margin-left: 80px;">
+           <div class="footer-text2">
+            <div style="color: white;">
+              <h4 style="margin-bottom: 20px;">QUICK LINKS</h4>
+              <ul>
+                <li style="margin-bottom: 10px;">2 Bhk Flats</li>
+                <li style="margin-bottom: 10px;">Projects in Dhanori</li>
+                <li style="margin-bottom: 10px;">3 Bhk Flats</li>
+              </ul>
+            </div>
+           </div>
+          </div>
+    </div>
+</div>
+<div class="items-center justify-center text-center ">
+  <p style="color: white;">
+    Copyright @2023. All Rights Reserved. Stellar Properties
+  </p>
+</footer>
+
+<!-- modal section -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="d-flex" style="background-color:white;">
+      <div class="row">
+              <div class="col-lg-6">
+                <h4 style="color:#2f6cb0; font-weight: 400; font-size: 30px; margin-top: 30px; margin-left: 30px; margin-bottom: 30px;">GET IN TOUCH.</h4>
+                  <div class="footer-form;">
+                    <form style="margin-left: 30px;">
+                      <div class="form-group ">
+                          <div class="col-sm-12" style="margin-top: 20px; margin-bottom: 10px;"> 
+                        <input placeholder="First Name" type="text" name="first_name"  style="  width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border:1px solid #2f6cb0; border-radius: 5px;">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-sm-12" style="margin-bottom: 10px;">
+                              <input placeholder="Phone Number" type="text" name="phone" style=" width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border:1px solid #2f6cb0; border-radius: 5px;">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-sm-12" style="margin-bottom: 10px;">
+                              <input placeholder="Email" type="text" name="email" style="  width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border:1px solid #2f6cb0; border-radius: 5px;">
+                          </div>
+                      </div>
+                      <div class="form-group ">
+                        <div class="col-sm-12" style="margin-bottom: 10px;">
+                        <select placeholder="Project Looking" type="text" name="project looking" style="width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border:1px solid #2f6cb0; border-radius: 5px;">
+                        <option value="">Select Project Looking</option>
+                        <option value="1">SOHO</option>
+                        <option value="2">Wellington</option>
+                        <option value="3">Manhattan</option>
+                        <option value="4">Atlantic</option>                     
+                       </select>
+                        </div>
+                      </div>
+  
+                       <div class="form-group ">
+                        <div class="col-sm-12" style="margin-bottom: 10px;">
+                        <select placeholder="Configuration Looking" type="text" name="configuration looking" style="width: 300px; height: 30px; -webkit-text-fill-color: #2f6cb0; background-color: white; border:1px solid #2f6cb0; border-radius: 5px;">
+                        <option value="">Select Configuration Looking</option>
+                        <option value="1">2 BHK</option>
+                        <option value="2">2.5 BHK</option>
+                        <option value="3">3 BHK</option>
+                        <option value="4">4 BHK</option>
+                        <option value="5">4.5 BHK</option>
+                       </select>
+                        </div>
+                       </div>
+                       <div style="margin-bottom: 20px;">
+                        <input type="checkbox" name="agree" required id="agree" />
+                        <label for="agree">I agreed to be contacted on Whatsapp</label>
+                      </div>
+                      <div>
+                        <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#myModal" style="margin-bottom: 20px;  border-radius: 10px; color:white; background-color: #2f6cb0; border:#2f6cb0; border-radius: 5px;">Submit</button>
+                        </div>   
+                  </form>
+                  </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="95%" height="95%" id="gmap_canvas" src="https://maps.google.com/maps?q=Pride World City Rd Charholi Budruk Maharashtra 412105&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+                </iframe>
+                <br>
+                </div></div>
+      </div>
+
+      
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
